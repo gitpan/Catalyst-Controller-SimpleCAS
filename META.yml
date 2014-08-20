@@ -23,7 +23,7 @@ requires:
   Data::Dumper: 0
   Digest::SHA1: 0
   Email::MIME: 0
-  Email::MIME::CreateHTML: 0
+  Email::MIME::CreateHTML: 1.040
   Email::MIME::CreateHTML::Resolver::LWP: 0
   Encode: 0
   File::MimeInfo::Magic: 0
@@ -38,7 +38,6 @@ requires:
   Moose: 0
   MooseX::MethodAttributes::Role: 0.29
   Path::Class: 0
-  RapidApp::Include: 0
   String::Random: 0
   Try::Tiny: 0
   Types::Standard: 0
@@ -48,4 +47,4 @@ requires:
 resources:
   bugtracker: https://github.com/vanstyn/Catalyst-Controller-SimpleCAS/issues
   repository: https://github.com/vanstyn/Catalyst-Controller-SimpleCAS.git
-version: 0.990
+version: 0.991
